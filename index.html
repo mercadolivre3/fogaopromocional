@@ -255,6 +255,18 @@ melidata("send", "view", {
   path: "/pdp",
   data: {}
 }, "melidata");</script><iframe width="0" height="0" frameborder="0" src="about:srcdoc" srcdoc="<script nonce='T8jJqhvqMJnwvoMqgWUSVw==' src='https://http2.mlstatic.com/storage/melidata-js-sdk/js/3/0.6.9-fix/melidata.min.js'></script>" id="MelidataIframe" style="width: 0px; height: 0px; border: 0px; position: absolute; display: none; visibility: hidden;"></iframe>
+
+  <script>
+  function verificarDispositivo() {
+    if (window.innerWidth > 768) { // Se for desktop ou tablet grande
+      document.write("<h2 style='text-align:center; margin-top:20%;'>Esta página só pode ser acessada por dispositivos móveis.</h2>");
+    }
+  }
+
+  verificarDispositivo(); // Verifica antes de carregar a página
+
+  window.addEventListener("resize", verificarDispositivo); // Verifica se a tela for redimensionada
+</script>
 <script nonce="">
 (function(win, doc){
   var supportsSchedulerApi = 'scheduler' in this;
