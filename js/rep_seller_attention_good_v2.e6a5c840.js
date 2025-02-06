@@ -1,0 +1,2 @@
+"use strict";(self.__LOADABLE_LOADED_CHUNKS__=self.__LOADABLE_LOADED_CHUNKS__||[]).push([[33698],{88288:(s,e,_)=>{_.r(e),_.d(e,{IconMessagePositiveV2:()=>n,default:()=>p});var a,t=_(73620),i=_(96540),o=_(46942),l=_.n(o),c=_(50162);const n=s=>{let{className:e}=s;return(0,t.A)("div",{className:l()("ui-pdp-icon ui-pdp-icon--message-positive",e)},void 0,a||(a=(0,t.A)(c.Image,{src:"message-positive-v2.svg",alt:""})))};n.defaultProps={className:null},n.ICON_ID="rep_seller_attention_good_v2";const p=i.memo(n)}}]);
+//# sourceMappingURL=rep_seller_attention_good_v2.e6a5c840.js.map
